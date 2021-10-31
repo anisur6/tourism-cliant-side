@@ -1,0 +1,71 @@
+.home {
+    margin: 0px;
+    padding: 30px;
+    background-image: url(../../banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+.h1 {
+    text-align: center;
+}
+.h5 {
+    text-align: center;
+}
+.p {
+    font-size: 18px;
+    font-weight: normal;
+}
+.btn {
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 10px 25px;
+}
+span{
+    color: turquoise;
+}
+.home-img {
+    height: 400px;
+}
+
+.img2 {
+    height: 400px;
+}
+
+.homecourse{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.banner-home img{
+   height: 100px;
+   margin-bottom: 20px;
+}
+.banner-home h5{
+   font-weight: bolder;
+   border-radius: 10px;
+   text-transform: uppercase;
+}
+
+
+
+/* meadia qurey  */
+
+@media screen and (max-width: 440px) {
+    .p{
+        display: none;
+    }
+    .h4 {
+        color: black!important;
+    }
+
+    .btn {
+        margin-top: 5px;
+    }
+  }
