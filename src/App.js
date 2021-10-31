@@ -15,9 +15,9 @@ import Booking from './Components/Booking/Booking';
 import Blogs from './Components/Blogs/Blogs';
 import Login from './Components/Login/Login';
 import AuthProvider from './contex/AuthProvider';
-import AllOrder from './Components/AllOrders/AllOrder';
-import ManageAll from './Components/ManageAll/ManageAll';
+import AllOrder from './Components/AllOrders/AllOrders';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import ManageAlls from './Components/ManageAlls/ManageAlls';
 
 
 function App() {
@@ -66,7 +66,7 @@ function App() {
 
 
             <Route path="/manageAll">
-            <ManageAll></ManageAll>
+              <ManageAlls></ManageAlls>
             </Route>
 
             <PrivateRoute path="/addservice">
