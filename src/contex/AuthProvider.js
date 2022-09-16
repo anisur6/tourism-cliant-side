@@ -10,7 +10,7 @@ const AuthProvider = ({ children }) => {
     // const { children } = props;
     const allContext = useFirebase();
     return (
-        //ai provider ke & kano ???
+       
         <AuthContext.Provider value={allContext}>
             {children}
         </AuthContext.Provider>
